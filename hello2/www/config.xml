@@ -48,4 +48,21 @@
     <gap:splash gap:platform="ios" height="768" src="res/screen/ios/screen-ipad-landscape.png" width="1024" />
     <gap:splash gap:platform="winphone" src="res/screen/windows-phone/screen-portrait.jpg" />
     <access origin="http://127.0.0.1*" />
+	<feature name="Device" value="org.apache.cordova.core.Device"/>
+	<feature name="NetworkStatus" value="org.apache.cordova.core.NetworkManager" />
+	<feature name="Battery" value="org.apache.cordova.core.BatteryListener" />
+	<feature name="Accelerometer" value="org.apache.cordova.core.AccelListener" />
+	<feature name="Compass" value="org.apache.cordova.core.CompassListener" />
+	<feature name="Geolocation" value="org.apache.cordova.core.GeoBroker" />
+	<feature name="Camera" value="org.apache.cordova.core.CameraLauncher" />
+	<feature name="Media" value="org.apache.cordova.core.AudioHandler" />
+	<feature name="Capture" value="org.apache.cordova.core.Capture" />
+	<feature name="File" value="org.apache.cordova.core.FileUtils" />
+	<feature name="FileTransfer" value="org.apache.cordova.core.FileTransfer" />
+	<feature name="Notification" value="org.apache.cordova.core.Notification" />
+	<feature name="Vibration" value="org.apache.cordova.core.Vibration" />
+	<feature name="Contacts" value="org.apache.cordova.core.ContactManager" />
+	<feature name="Globalization" value="org.apache.cordova.core.globalization" />
+	<feature name="SplashScreen" value="org.apache.cordova.core.SplashScreen" />
+	<feature name="InAppBrowser" value="org.apache.cordova.core.InAppBrowser" />
 </widget>
